@@ -831,7 +831,7 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
 <!-- ============ N12 · Rodapé ============ -->
 <footer>
   <div class="wrap">
-    <p><b>Mapa da Aprovação</b> · Conteúdo de apoio ao estudo. Não substitui o edital, a legislação vigente nem orientação profissional. Material independente, sem vínculo com a Polícia Civil nem com bancas organizadoras. Pagamento processado pela Kiwify.</p>
+    <p><b>Mapa da Aprovação</b> · Conteúdo de apoio ao estudo. Não substitui o edital, a legislação vigente nem orientação profissional. Material independente, sem vínculo com a Polícia Civil nem com bancas organizadoras. Pagamento processado em ambiente seguro.</p>
   </div>
 </footer>
 
@@ -843,7 +843,7 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
 
 <script>
 // ===== Fonte única dos dados comerciais =====
-const OFERTA = { preco: "19,99", garantiaDias: 7, checkoutUrl: "" };
+const OFERTA = { preco: "19,99", garantiaDias: 7, checkoutUrl: "https://pay.wiapy.com/_b39OeVG6zlW" };
 const ENTREGA = [
   ["56 fichas ilustradas", "Organizadas em 15 disciplinas, uma por ponto de prova"],
   ["Exercícios com gabarito comentado", "Para testar a revisão e entender cada resposta"],
@@ -859,7 +859,7 @@ document.querySelectorAll('[data-lista="entrega"]').forEach(ul => {
   ul.innerHTML = ENTREGA.map(([t, d]) => `<li>${CHECK}<span><b>${t}</b><small>${d}</small></span></li>`).join('');
 });
 
-// Checkout (Kiwify)
+// Checkout
 document.querySelectorAll('[data-checkout]').forEach(a => { if (OFERTA.checkoutUrl) { a.href = OFERTA.checkoutUrl; a.rel = 'noopener'; } else { a.removeAttribute('href'); a.setAttribute('aria-disabled','true'); } });
 
 // Selo de garantia
