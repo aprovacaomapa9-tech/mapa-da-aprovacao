@@ -843,7 +843,7 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
 
 <script>
 // ===== Fonte única dos dados comerciais =====
-const OFERTA = { preco: "29,90", garantiaDias: 7, checkoutUrl: "https://pay.kiwify.com.br/o277tsc" };
+const OFERTA = { preco: "19,99", garantiaDias: 7, checkoutUrl: "" };
 const ENTREGA = [
   ["56 fichas ilustradas", "Organizadas em 15 disciplinas, uma por ponto de prova"],
   ["Exercícios com gabarito comentado", "Para testar a revisão e entender cada resposta"],
@@ -860,7 +860,7 @@ document.querySelectorAll('[data-lista="entrega"]').forEach(ul => {
 });
 
 // Checkout (Kiwify)
-document.querySelectorAll('[data-checkout]').forEach(a => { a.href = OFERTA.checkoutUrl; a.rel = 'noopener'; });
+document.querySelectorAll('[data-checkout]').forEach(a => { if (OFERTA.checkoutUrl) { a.href = OFERTA.checkoutUrl; a.rel = 'noopener'; } else { a.removeAttribute('href'); a.setAttribute('aria-disabled','true'); } });
 
 // Selo de garantia
 let seloN = 0;
