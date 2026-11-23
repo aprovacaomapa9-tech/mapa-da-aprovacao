@@ -6,11 +6,11 @@
 <title>Mapa da Aprovação — Revisão para Delegado de Polícia Civil</title>
 <meta name="description" content="56 fichas ilustradas para revisar os pontos que decidem a prova de Delegado de Polícia Civil. PDF com exercícios e gabarito comentado.">
 <meta name="robots" content="noindex">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23143F43%27/%3E%3Cpath d=%27M16 5l2.6 8.4L27 16l-8.4 2.6L16 27l-2.6-8.4L5 16l8.4-2.6z%27 fill=%27%23F5E6C4%27/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-14 -17 28 34%27%3E%3Crect x=%27-14%27 y=%27-17%27 width=%2728%27 height=%2734%27 fill=%27%230B1F36%27/%3E%3Cpath d=%27M-9-12H9V2C9 9 4 12 0 14C-4 12-9 9-9 2Z%27 fill=%27%23C8A24B%27/%3E%3C/svg%3E">
 <script>document.documentElement.classList.add('js')</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
 <style>
 /* ===== Tokens (Manual de identidade v1.0, seções 3, 4 e 8) ===== */
 :root{
@@ -486,7 +486,114 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
 @media (min-width:768px){.avatar{width:96px;height:96px}}
 .depo-card figcaption{gap:16px}
 .outras{max-width:760px;margin:28px auto 0;text-align:center;font-size:17px;color:var(--color-text-secondary)}
-.outras b{color:var(--color-brand)}</style>
+.outras b{color:var(--color-brand)}
+/* ===== v0.8 · Institucional: azul-marinho, dourado e papel. Sem fundos vivos ===== */
+:root{
+  --navy:#0B1F36; --navy-2:#12305A; --ink:#061220; --gold:#C8A24B; --gold-d:#8A6A1E; --gold-l:#E8D29A;
+  --stone:#F4F2EC; --stone-2:#EAE6D9;
+  --color-brand:#0B1F36; --color-brand-support:#1F4E8C;
+  --color-bg-page:#F4F2EC; --color-bg-soft:#EAE6D9; --color-bg-warm:#F2EBD4;
+  --color-text:#14202E; --color-text-secondary:#46566A;
+  --color-border-subtle:#D8D4C6; --color-border-control:#6E7A8A;
+  --color-action:#8A6A1E; --color-action-hover:#6F5416; --color-action-pressed:#574210;
+  --color-success:#1F6B4A;
+  --shadow-card:0 2px 10px rgba(11,31,54,.08); --shadow-offer:0 10px 28px rgba(11,31,54,.16); --shadow-mockup:0 14px 34px rgba(11,31,54,.22);
+}
+.estrela,.ticker{display:none}
+.marca{background:linear-gradient(transparent 60%,rgba(200,162,75,.38) 60%)}
+.escuro .marca,.hero .marca,.depo-card .marca{background:linear-gradient(transparent 60%,rgba(200,162,75,.38) 60%)}
+.depo-card .marca{background:linear-gradient(transparent 60%,#EBDCAE 60%)}
+.rotulo{background:#F1E8CF;color:var(--gold-d)}
+.rotulo::before{border-radius:1px;transform:rotate(45deg)}
+.escuro .rotulo{background:rgba(200,162,75,.14);color:var(--gold-l)}
+
+/* Botões: dourado com texto azul-marinho */
+.btn-primario{background:linear-gradient(180deg,#E3C46E,#C8A24B);color:var(--navy);box-shadow:0 4px 0 #8A6A1E,0 10px 22px rgba(11,31,54,.25)}
+.btn-primario:hover{background:linear-gradient(180deg,#ECD07F,#D2AC54);box-shadow:0 6px 0 #8A6A1E,0 14px 26px rgba(11,31,54,.3)}
+.btn-primario:active{background:#C8A24B;box-shadow:0 1px 0 #8A6A1E}
+.btn-primario::after{display:none}
+.btn-hero{animation:none}
+.btn-secundario{border-color:var(--navy);color:var(--navy)}
+.btn-secundario:hover{background:#fff}
+
+/* Faixa superior */
+.faixa{background:var(--ink);color:var(--gold-l);border-bottom:2px solid var(--gold);font-weight:600;letter-spacing:.02em}
+.faixa span{color:var(--gold);opacity:.8}
+.faixa{margin:0}
+
+/* Hero */
+.hero{background:radial-gradient(ellipse 70% 50% at 50% 38%,#1B467F 0%,var(--navy-2) 34%,var(--navy) 70%,var(--ink) 100%)}
+.hero::before{opacity:.05;background-image:repeating-linear-gradient(45deg,#fff 0 1px,transparent 1px 14px);background-size:auto}
+.marca-topo{display:flex;align-items:center;gap:12px;margin:0 0 22px;color:#fff;font:700 15px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase}
+.marca-topo svg{width:34px;height:40px;flex:none}
+.selo-publico{background:transparent;border:1px solid var(--gold);color:var(--gold-l);font-size:13px;letter-spacing:.12em;text-transform:uppercase;padding:8px 18px;border-radius:2px}
+.hero .realce{color:var(--gold)}
+.hero .lead{color:#C9D3E0}
+.hero .condicoes-cta{color:#C9D3E0}
+.hero .check{color:var(--gold)}
+.leque::before{background:radial-gradient(circle at 50% 40%,rgba(47,94,158,.55) 0%,rgba(18,48,90,.15) 72%);border:1px solid rgba(200,162,75,.45);box-shadow:none}
+.leque .capa-wrap .pg{box-shadow:0 24px 52px rgba(0,0,0,.5),0 0 0 1px rgba(200,162,75,.5)}
+.tag-pdf b{background:var(--navy);color:var(--gold-l)}
+.numeros li{border-top:3px solid var(--gold);border-radius:6px}
+.numeros strong{color:var(--navy)}
+
+/* Seções claras: papel, sem pontos nem cores berrantes */
+.bg-branco,#conteudo,.garantia-secao{background:var(--stone)}
+.galeria-secao,.funciona,.faq-secao{background:#fff}
+.uso{background:var(--stone-2)}
+.bg-branco,.funciona,.galeria-secao,#conteudo,.uso,.garantia-secao,.faq-secao{background-size:auto}
+.dores li{border-color:var(--color-border-subtle);border-left:4px solid var(--navy)}
+.dores li::before{color:#9B2C2C}
+.virada{background:linear-gradient(135deg,var(--navy-2) 0%,var(--navy) 100%);border-left:6px solid var(--gold);border-radius:8px}
+.virada p{color:#C9D3E0}
+.virada .grande{color:#fff}
+.pino{background:var(--navy);box-shadow:0 0 0 3px var(--gold)}
+.partes .n{background:var(--navy);color:var(--gold-l)}
+.passos .pin b{background:var(--navy)}
+.passos .pin b i{color:var(--gold-l)}
+.passos li:not(:last-child) .pin::after{border-top:2px dashed var(--gold)}
+.rigor,.nao-substitui,.fora{border-left-color:var(--gold)}
+.partes li,.passos li,.espelho li,.bloco,.cartao-itens,.faq details{border-radius:6px}
+.bloco{border-top:4px solid var(--gold)}
+.faq details{background:var(--stone);border-color:var(--color-border-subtle)}
+.faq details[open]{background:#fff}
+
+/* Seções escuras: marinho liso com leve luz, sem pontos */
+#comparar,.depo,.oferta{background:radial-gradient(ellipse at 50% 0%,#17407A 0%,var(--navy) 55%,var(--ink) 100%)}
+.depo{background:radial-gradient(ellipse at 50% 0%,#13355F 0%,var(--navy) 58%,var(--ink) 100%)}
+footer{background:var(--ink);border-top:2px solid var(--gold)}
+#comparar .cabeca p,#comparar .comp-nota,.oferta .cabeca p,.aviso-resultado{color:#C9D3E0}
+#comparar .realce,.oferta .realce{color:var(--gold)}
+.desafio{background:var(--gold);color:var(--navy);border-radius:4px}
+.comp-legendas span{border-radius:4px}
+.comp-legendas .b{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+.comparador .divisor{background:var(--gold)}
+.comparador .alca{background:var(--gold);color:var(--navy);animation:none;box-shadow:0 4px 14px rgba(0,0,0,.4)}
+
+/* Apostila: anotações sóbrias no lugar de post-its coloridos */
+.comparador .lado-texto{background-image:linear-gradient(90deg,transparent 8.5cqw,rgba(155,44,44,.4) 8.5cqw,rgba(155,44,44,.4) calc(8.5cqw + 2px),transparent calc(8.5cqw + 2px))}
+.postit{font:700 3.3cqw/1.15 var(--sans);font-style:italic;color:#5A1F1F;background:#F6EFD2!important;border-left:1.2cqw solid #9B2C2C;box-shadow:0 .8cqw 1.8cqw rgba(0,0,0,.2);padding:2cqw 2.4cqw}
+.postit.p1{transform:rotate(-2deg)}.postit.p2{transform:rotate(1.5deg)}.postit.p3{transform:rotate(-1deg)}
+
+/* Galeria, depoimento, oferta */
+.pagina-btn .lupa{background:var(--navy);color:var(--gold-l)}
+.depo-card{border-top:5px solid var(--gold);border-radius:8px}
+.depo-card .aspas{color:var(--gold)}
+.avatar{border-color:var(--gold)}
+.autor{color:var(--navy)}
+.aprovado{background:#E6EFE9}
+.quadro{border-top:8px solid var(--gold);border-radius:8px;box-shadow:0 0 0 1px rgba(200,162,75,.5),var(--shadow-offer)}
+.selo-oferta{background:#F2EBD4;color:var(--gold-d);border-radius:3px}
+.preco{color:var(--navy)}
+.pagamentos li{background:var(--stone);border-radius:4px}
+.garantia{border-radius:8px;border-top:4px solid var(--gold)}
+.garantia-linha{background:var(--stone);border-left:4px solid var(--gold);border-radius:4px}
+.selo{filter:drop-shadow(0 8px 14px rgba(11,31,54,.3))}
+.barra-fixa .btn{box-shadow:0 3px 0 #8A6A1E}
+.faq summary::after,.bloco .ind{border-color:var(--color-border-control)}
+.hero .marca,.escuro .marca{background:none;box-shadow:inset 0 -.13em 0 var(--gold);padding:0}
+
+</style>
 </head>
 <body>
 
@@ -497,6 +604,7 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
 <!-- ============ N01 · Abertura ============ -->
 <header class="hero" id="topo">
   <div class="wrap hero-centro">
+    <div class="marca-topo"><svg viewBox="-12 -15 24 31" aria-hidden="true"><path d="M-11-14H11V2C11 10 5 14 0 16C-5 14-11 10-11 2Z" fill="#C8A24B"/><path d="M-8.5-11.5H8.5V2C8.5 8.5 4 12 0 13.5C-4 12-8.5 8.5-8.5 2Z" fill="#0B1F36"/><polygon points="0,-8 1.9,-2.6 7.6,-2.6 3,0.8 4.7,6.2 0,3 -4.7,6.2 -3,0.8 -7.6,-2.6 -1.9,-2.6" fill="#C8A24B"/></svg><span>Mapa da Aprovação</span></div>
     <span class="selo-publico">Para concursos de Delegado de Polícia Civil</span>
     <h1>Revise o que <span class="marca">decide a prova</span> de Delegado, <span class="realce">sem reler tudo de novo</span></h1>
     <p class="lead">56 fichas ilustradas que partem de uma pergunta de prova, mostram o caminho até a resposta e destacam as pegadinhas.</p>
@@ -504,8 +612,8 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
     <div class="leque" role="img" aria-label="Capa do Mapa da Aprovação entre duas fichas internas: escolha do remédio constitucional e entrada em domicílio.">
       <div class="lado lado-esq"><img class="pg" src="img/p07.png" width="1600" height="2264" alt=""></div>
       <div class="lado lado-dir"><img class="pg" src="img/p06.png" width="1600" height="2264" alt=""></div>
-      <div class="capa-wrap"><img class="pg" src="img/p01.png" width="1600" height="2264" alt=""></div>
-      <span class="estrela e1" aria-hidden="true">✦</span><span class="estrela e2" aria-hidden="true">✦</span><span class="estrela e3" aria-hidden="true">✦</span>
+      <div class="capa-wrap"><img class="pg" src="img/capa.svg" width="1600" height="2264" alt=""></div>
+      
       <span class="tag-pdf"><b>PDF</b>70 páginas · formato A4</span>
     </div>
 
@@ -526,7 +634,6 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
   </div>
 </header>
 
-<div class="ticker" aria-hidden="true"><div class="ticker-trilho"><span>56 fichas ilustradas</span><span class="sep">★</span><span>Pegadinhas de prova</span><span class="sep">★</span><span>Exercícios e gabarito</span><span class="sep">★</span><span>Fonte oficial em cada ficha</span><span class="sep">★</span><span>56 fichas ilustradas</span><span class="sep">★</span><span>Pegadinhas de prova</span><span class="sep">★</span><span>Exercícios e gabarito</span><span class="sep">★</span><span>Fonte oficial em cada ficha</span><span class="sep">★</span><span>56 fichas ilustradas</span><span class="sep">★</span><span>Pegadinhas de prova</span><span class="sep">★</span><span>Exercícios e gabarito</span><span class="sep">★</span><span>Fonte oficial em cada ficha</span><span class="sep">★</span><span>56 fichas ilustradas</span><span class="sep">★</span><span>Pegadinhas de prova</span><span class="sep">★</span><span>Exercícios e gabarito</span><span class="sep">★</span><span>Fonte oficial em cada ficha</span><span class="sep">★</span></div></div>
 
 <!-- ============ N02 · Problema e reenquadramento ============ -->
 <section class="secao bg-branco" aria-labelledby="t-dor">
@@ -586,8 +693,8 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
       <p>À esquerda, o conteúdo em texto corrido. À direita, a ficha. Arraste a barra ou use as setas do teclado.</p>
     </div>
     <div class="comparador-bloco reveal">
-      <p class="desafio">⏱ Desafio: ache a pegadinha em 5 segundos, dos dois lados</p>
-      <div class="comp-legendas"><span>😵 Texto corrido</span><span class="b">🎯 Ficha do Mapa</span></div>
+      <p class="desafio">Teste: em qual lado você acha o ponto decisivo mais rápido?</p>
+      <div class="comp-legendas"><span>Texto corrido</span><span class="b">Ficha do Mapa</span></div>
       <div class="comparador" id="comparador">
         <div class="lado lado-ficha"><img src="img/p06.png" width="1600" height="2264" loading="lazy" alt="Ficha 'Escolha do remédio constitucional', com árvore de decisão, tabela de legitimidade e pegadinhas."></div>
         <div class="lado lado-texto" aria-hidden="true">
@@ -596,9 +703,9 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
           <p>O <mark class="hl">habeas corpus</mark> (art. 5º, LXVIII) protege a liberdade de locomoção contra ilegalidade ou abuso de poder e pode ser impetrado por qualquer pessoa, por si ou por outrem, inclusive pelo Ministério Público (<mark class="hl">CPP, art. 654</mark>), sendo ação gratuita. O habeas data (art. 5º, LXXII) serve para conhecer ou retificar dados da própria pessoa; é ajuizado pelo titular das informações e exige prova da recusa ou da demora (Lei 9.507, art. 8º, par. único), pois <mark class="hl2">sem recusa não há interesse de agir</mark> (Súmula 2/STJ).</p>
           <p>O mandado de injunção (art. 5º, LXXI) cabe quando a falta de norma regulamentadora torna inviável o exercício de direito e pode ser impetrado por quem se afirma titular do direito (Lei 13.300, art. 3º); o MI coletivo tem rol próprio (art. 12), que inclui o MP e a Defensoria Pública. A ação popular (art. 5º, LXXIII) protege patrimônio público, moralidade, meio ambiente e patrimônio cultural; o legitimado é o cidadão, com título eleitoral ou equivalente (Lei 4.717, art. 1º, § 3º), sem custas, salvo má-fé, e <mark class="hl2">pessoa jurídica não tem legitimidade</mark> (Súmula 365/STF).</p>
           <p>O mandado de segurança (art. 5º, LXIX) protege direito líquido e certo não amparado por HC ou HD, contra ato de autoridade; é <mark class="hl">residual</mark>, pode ser impetrado por pessoa física ou jurídica titular (Lei 12.016, art. 1º), exige fatos provados por documento na inicial, mas tese controvertida não impede (Súmula 625/STF), observa o prazo de 120 dias e não cabe contra lei em tese (Súmula 266/STF). O MS coletivo (art. 5º, LXX) pode ser impetrado por partido com representação no Congresso, sindicato, entidade de classe ou associação em funcionamento há pelo menos um ano.</p>
-          <span class="postit p1">decorar tudo isso?! 😵</span>
+          <span class="postit p1">decorar tudo isso?</span>
           <span class="postit p2">onde está a pegadinha?</span>
-          <span class="postit p3">reler de novo... 😩</span>
+          <span class="postit p3">reler de novo...</span>
         </div>
         <div class="divisor" aria-hidden="true"></div>
         <div class="alca" aria-hidden="true">⇆</div>
@@ -701,7 +808,7 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
     <div class="pacote">
       <div class="mockup2 reveal" role="img" aria-label="Capa do Mapa da Aprovação ao lado de uma ficha interna sobre competências da Polícia Civil.">
         <img class="pg m-int" src="img/p09.png" width="1600" height="2264" alt="" loading="lazy">
-        <img class="pg m-capa" src="img/p01.png" width="1600" height="2264" alt="" loading="lazy">
+        <img class="pg m-capa" src="img/capa.svg" width="1600" height="2264" alt="" loading="lazy">
       </div>
       <div class="cartao-itens reveal">
         <span class="rotulo">O que você recebe</span>
@@ -768,7 +875,7 @@ footer{background:var(--pontos-claro),linear-gradient(180deg,#143F43,var(--noite
     </div>
     <div class="quadro reveal">
       <div class="mini">
-        <img src="img/p01.png" width="1600" height="2264" alt="" loading="lazy">
+        <img src="img/capa.svg" width="1600" height="2264" alt="" loading="lazy">
         <div><b>Mapa da Aprovação</b><span>Delegado de Polícia Civil · PDF</span></div>
       </div>
       <ul class="itens" data-lista="entrega"></ul>
@@ -871,16 +978,16 @@ function seloSVG() {
     pts.push((100 + r * Math.cos(a)).toFixed(1) + ',' + (100 + r * Math.sin(a)).toFixed(1));
   }
   return `<svg viewBox="0 0 200 200" role="img" aria-label="Selo: garantia de ${d} dias ">
-    <polygon points="${pts.join(' ')}" fill="#143F43" stroke="#143F43" stroke-width="3" stroke-linejoin="round"/>
+    <polygon points="${pts.join(' ')}" fill="#0B1F36" stroke="#C8A24B" stroke-width="3" stroke-linejoin="round"/>
     <circle cx="100" cy="100" r="87" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="1.5" stroke-dasharray="2 5"/>
     <defs><path id="${id}" d="M100,100 m-68,0 a68,68 0 1,1 136,0 a68,68 0 1,1 -136,0"/></defs>
-    <g class="selo-anel"><text fill="#fff" font-size="13" font-weight="700" font-family="Source Sans 3,Arial,sans-serif"><textPath href="#${id}" textLength="418" lengthAdjust="spacing">GARANTIA PELA CAKTO • ${d} DIAS • GARANTIA •</textPath></text></g>
+    <g class="selo-anel"><text fill="#E8D29A" font-size="13" font-weight="700" font-family="Source Sans 3,Arial,sans-serif"><textPath href="#${id}" textLength="418" lengthAdjust="spacing">GARANTIA DE ${d} DIAS • COMPRA SEGURA •</textPath></text></g>
     <circle cx="100" cy="100" r="50" fill="#fff"/>
-    <circle cx="100" cy="100" r="45" fill="none" stroke="#B4492D" stroke-width="2.5"/>
-    <circle cx="100" cy="73" r="9" fill="#B4492D"/>
-    <path d="M95.5 73.2l3.3 3.3 5.7-6.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="100" y="116" text-anchor="middle" font-family="Source Serif 4,Georgia,serif" font-size="44" font-weight="600" fill="#143F43">${d}</text>
-    <text x="100" y="133" text-anchor="middle" font-family="Source Sans 3,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#B4492D">DIAS</text>
+    <circle cx="100" cy="100" r="45" fill="none" stroke="#C8A24B" stroke-width="2.5"/>
+    <circle cx="100" cy="73" r="9" fill="#C8A24B"/>
+    <path d="M95.5 73.2l3.3 3.3 5.7-6.4" fill="none" stroke="#0B1F36" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="100" y="116" text-anchor="middle" font-family="Source Serif 4,Georgia,serif" font-size="44" font-weight="600" fill="#0B1F36">${d}</text>
+    <text x="100" y="133" text-anchor="middle" font-family="Source Sans 3,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3" fill="#8A6A1E">DIAS</text>
   </svg>`;
 }
 document.querySelectorAll('[data-selo]').forEach(e => e.innerHTML = seloSVG());
@@ -918,7 +1025,7 @@ if (SUMARIO.reduce((n, [, t]) => n + t.length, 0) !== 56) console.warn('Sumário
 
 // Galeria + visor
 const FICHAS = [
-  { id: "p01", src: "img/p01.png", t: "Capa", d: "Mapa da Aprovação" },
+  { id: "p01", src: "img/capa.svg", t: "Capa", d: "Mapa da Aprovação" },
   { id: "p02", src: "img/p02.png", t: "Como usar este caderno", d: "Apresentação" },
   { id: "p05", src: "img/p05.png", t: "Eficácia das normas constitucionais", d: "Constitucional" },
   { id: "p06", src: "img/p06.png", t: "Escolha do remédio constitucional", d: "Constitucional" },

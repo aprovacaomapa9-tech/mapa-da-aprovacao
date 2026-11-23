@@ -1,0 +1,90 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1132' width='1600' height='2264'>
+<defs>
+<linearGradient id='fundo' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#12305A'/><stop offset='.55' stop-color='#0B1F36'/><stop offset='1' stop-color='#061220'/></linearGradient>
+<linearGradient id='ouro' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#F0DC9C'/><stop offset='.5' stop-color='#C8A24B'/><stop offset='1' stop-color='#8F6E22'/></linearGradient>
+<radialGradient id='brilho' cx='.5' cy='.5' r='.5'><stop offset='0' stop-color='#2F5E9E' stop-opacity='.55'/><stop offset='1' stop-color='#2F5E9E' stop-opacity='0'/></radialGradient>
+<pattern id='trama' width='14' height='14' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'><path d='M0 0H14' stroke='#fff' stroke-opacity='.035' stroke-width='1'/></pattern>
+</defs>
+<rect width='800' height='1132' fill='url(#fundo)'/>
+<rect width='800' height='1132' fill='url(#trama)'/>
+<circle cx='400' cy='655' r='330' fill='url(#brilho)'/>
+<rect x='26' y='26' width='748' height='1080' fill='none' stroke='url(#ouro)' stroke-width='3'/>
+<rect x='38' y='38' width='724' height='1056' fill='none' stroke='#C8A24B' stroke-opacity='.5' stroke-width='1'/>
+<text x='400' y='112' text-anchor='middle' font-family='Source Sans 3,Arial,sans-serif' font-size='19' font-weight='700' letter-spacing='7' fill='#C8A24B'>CADERNO DE REVIS&#195;O ILUSTRADO</text>
+<text x='400' y='232' text-anchor='middle' font-family='Source Serif 4,Georgia,serif' font-size='84' font-weight='600' fill='#FFFFFF'>Mapa da</text>
+<text x='400' y='350' text-anchor='middle' font-family='Source Serif 4,Georgia,serif' font-size='126' font-weight='700' fill='url(#ouro)'>Aprova&#231;&#227;o</text>
+<path d='M250 392H550' stroke='#C8A24B' stroke-width='2'/>
+<path d='M386 392l14-9 14 9-14 9z' fill='#C8A24B'/>
+<g>
+<ellipse cx='429.92' cy='867.91' rx='7' ry='19' transform='rotate(160 429.92 867.91)' fill='url(#ouro)'/>
+<ellipse cx='433.54' cy='893.65' rx='7' ry='19' transform='rotate(216 433.54 893.65)' fill='url(#ouro)'/>
+<ellipse cx='465.01' cy='859.94' rx='7' ry='19' transform='rotate(169.6 465.01 859.94)' fill='url(#ouro)'/>
+<ellipse cx='472.87' cy='884.72' rx='7' ry='19' transform='rotate(225.6 472.87 884.72)' fill='url(#ouro)'/>
+<ellipse cx='498.28' cy='846.22' rx='7' ry='19' transform='rotate(179.2 498.28 846.22)' fill='url(#ouro)'/>
+<ellipse cx='510.16' cy='869.35' rx='7' ry='19' transform='rotate(235.2 510.16 869.35)' fill='url(#ouro)'/>
+<ellipse cx='528.79' cy='827.16' rx='7' ry='19' transform='rotate(188.8 528.79 827.16)' fill='url(#ouro)'/>
+<ellipse cx='544.36' cy='847.98' rx='7' ry='19' transform='rotate(244.8 544.36 847.98)' fill='url(#ouro)'/>
+<ellipse cx='555.7' cy='803.27' rx='7' ry='19' transform='rotate(198.4 555.7 803.27)' fill='url(#ouro)'/>
+<ellipse cx='574.53' cy='821.2' rx='7' ry='19' transform='rotate(254.4 574.53 821.2)' fill='url(#ouro)'/>
+<ellipse cx='578.24' cy='775.23' rx='7' ry='19' transform='rotate(208 578.24 775.23)' fill='url(#ouro)'/>
+<ellipse cx='599.8' cy='789.77' rx='7' ry='19' transform='rotate(264 599.8 789.77)' fill='url(#ouro)'/>
+<ellipse cx='595.8' cy='743.82' rx='7' ry='19' transform='rotate(217.6 595.8 743.82)' fill='url(#ouro)'/>
+<ellipse cx='619.47' cy='754.56' rx='7' ry='19' transform='rotate(273.6 619.47 754.56)' fill='url(#ouro)'/>
+<ellipse cx='607.87' cy='709.92' rx='7' ry='19' transform='rotate(227.2 607.87 709.92)' fill='url(#ouro)'/>
+<ellipse cx='633' cy='716.56' rx='7' ry='19' transform='rotate(283.2 633 716.56)' fill='url(#ouro)'/>
+<ellipse cx='614.12' cy='674.49' rx='7' ry='19' transform='rotate(236.8 614.12 674.49)' fill='url(#ouro)'/>
+<ellipse cx='640.01' cy='676.84' rx='7' ry='19' transform='rotate(292.8 640.01 676.84)' fill='url(#ouro)'/>
+<ellipse cx='614.37' cy='638.51' rx='7' ry='19' transform='rotate(246.4 614.37 638.51)' fill='url(#ouro)'/>
+<ellipse cx='640.29' cy='636.51' rx='7' ry='19' transform='rotate(302.4 640.29 636.51)' fill='url(#ouro)'/>
+<ellipse cx='608.61' cy='602.99' rx='7' ry='19' transform='rotate(256 608.61 602.99)' fill='url(#ouro)'/>
+<ellipse cx='633.84' cy='596.7' rx='7' ry='19' transform='rotate(312 633.84 596.7)' fill='url(#ouro)'/>
+<ellipse cx='597.02' cy='568.92' rx='7' ry='19' transform='rotate(265.6 597.02 568.92)' fill='url(#ouro)'/>
+<ellipse cx='620.84' cy='558.52' rx='7' ry='19' transform='rotate(321.6 620.84 558.52)' fill='url(#ouro)'/>
+<ellipse cx='579.9' cy='537.27' rx='7' ry='19' transform='rotate(275.2 579.9 537.27)' fill='url(#ouro)'/>
+<ellipse cx='601.66' cy='523.04' rx='7' ry='19' transform='rotate(331.2 601.66 523.04)' fill='url(#ouro)'/>
+<ellipse cx='370.08' cy='867.91' rx='7' ry='19' transform='rotate(-160 370.08 867.91)' fill='url(#ouro)'/>
+<ellipse cx='366.46' cy='893.65' rx='7' ry='19' transform='rotate(-216 366.46 893.65)' fill='url(#ouro)'/>
+<ellipse cx='334.99' cy='859.94' rx='7' ry='19' transform='rotate(-169.6 334.99 859.94)' fill='url(#ouro)'/>
+<ellipse cx='327.13' cy='884.72' rx='7' ry='19' transform='rotate(-225.6 327.13 884.72)' fill='url(#ouro)'/>
+<ellipse cx='301.72' cy='846.22' rx='7' ry='19' transform='rotate(-179.2 301.72 846.22)' fill='url(#ouro)'/>
+<ellipse cx='289.84' cy='869.35' rx='7' ry='19' transform='rotate(-235.2 289.84 869.35)' fill='url(#ouro)'/>
+<ellipse cx='271.21' cy='827.16' rx='7' ry='19' transform='rotate(-188.8 271.21 827.16)' fill='url(#ouro)'/>
+<ellipse cx='255.64' cy='847.98' rx='7' ry='19' transform='rotate(-244.8 255.64 847.98)' fill='url(#ouro)'/>
+<ellipse cx='244.3' cy='803.27' rx='7' ry='19' transform='rotate(-198.4 244.3 803.27)' fill='url(#ouro)'/>
+<ellipse cx='225.47' cy='821.2' rx='7' ry='19' transform='rotate(-254.4 225.47 821.2)' fill='url(#ouro)'/>
+<ellipse cx='221.76' cy='775.23' rx='7' ry='19' transform='rotate(-208 221.76 775.23)' fill='url(#ouro)'/>
+<ellipse cx='200.2' cy='789.77' rx='7' ry='19' transform='rotate(-264 200.2 789.77)' fill='url(#ouro)'/>
+<ellipse cx='204.2' cy='743.82' rx='7' ry='19' transform='rotate(-217.6 204.2 743.82)' fill='url(#ouro)'/>
+<ellipse cx='180.53' cy='754.56' rx='7' ry='19' transform='rotate(-273.6 180.53 754.56)' fill='url(#ouro)'/>
+<ellipse cx='192.13' cy='709.92' rx='7' ry='19' transform='rotate(-227.2 192.13 709.92)' fill='url(#ouro)'/>
+<ellipse cx='167' cy='716.56' rx='7' ry='19' transform='rotate(-283.2 167 716.56)' fill='url(#ouro)'/>
+<ellipse cx='185.88' cy='674.49' rx='7' ry='19' transform='rotate(-236.8 185.88 674.49)' fill='url(#ouro)'/>
+<ellipse cx='159.99' cy='676.84' rx='7' ry='19' transform='rotate(-292.8 159.99 676.84)' fill='url(#ouro)'/>
+<ellipse cx='185.63' cy='638.51' rx='7' ry='19' transform='rotate(-246.4 185.63 638.51)' fill='url(#ouro)'/>
+<ellipse cx='159.71' cy='636.51' rx='7' ry='19' transform='rotate(-302.4 159.71 636.51)' fill='url(#ouro)'/>
+<ellipse cx='191.39' cy='602.99' rx='7' ry='19' transform='rotate(-256 191.39 602.99)' fill='url(#ouro)'/>
+<ellipse cx='166.16' cy='596.7' rx='7' ry='19' transform='rotate(-312 166.16 596.7)' fill='url(#ouro)'/>
+<ellipse cx='202.98' cy='568.92' rx='7' ry='19' transform='rotate(-265.6 202.98 568.92)' fill='url(#ouro)'/>
+<ellipse cx='179.16' cy='558.52' rx='7' ry='19' transform='rotate(-321.6 179.16 558.52)' fill='url(#ouro)'/>
+<ellipse cx='220.1' cy='537.27' rx='7' ry='19' transform='rotate(-275.2 220.1 537.27)' fill='url(#ouro)'/>
+<ellipse cx='198.34' cy='523.04' rx='7' ry='19' transform='rotate(-331.2 198.34 523.04)' fill='url(#ouro)'/>
+
+</g>
+<g transform='translate(400 655)'>
+<path d='M-122,-150H122V22C122,104 62,154 0,182C-62,154 -122,104 -122,22Z' fill='url(#ouro)'/>
+<path d='M-108,-136H108V22C108,96 55,140 0,166C-55,140 -108,96 -108,22Z' fill='#0B1F36'/>
+<path d='M-100,-128H100V22C100,91 51,132 0,156C-51,132 -100,91 -100,22Z' fill='none' stroke='#C8A24B' stroke-width='1.6'/>
+<g transform='translate(0 -62)'><polygon points='0,-52 12.34,-16.99 49.45,-16.07 19.97,6.49 30.56,42.07 0,21 -30.56,42.07 -19.97,6.49 -49.45,-16.07 -12.34,-16.99' fill='url(#ouro)'/><circle r='9' fill='#0B1F36'/></g>
+<g stroke='#C8A24B' stroke-width='5' stroke-linecap='round' fill='none'>
+<path d='M0,14V118'/><path d='M-52,34H52'/><path d='M-26,118H26'/>
+<path d='M-52,34L-70,82M-52,34L-34,82M52,34L34,82M52,34L70,82' stroke-width='2.5'/>
+</g>
+<path d='M-76,82a24,14 0 0 0 48,0z' fill='#C8A24B'/><path d='M28,82a24,14 0 0 0 48,0z' fill='#C8A24B'/>
+<circle cx='0' cy='34' r='6' fill='#C8A24B'/>
+</g>
+<path d='M120 962H250M550 962H680' stroke='#C8A24B' stroke-opacity='.7' stroke-width='1.5'/>
+<text x='400' y='974' text-anchor='middle' font-family='Source Sans 3,Arial,sans-serif' font-size='30' font-weight='700' letter-spacing='5' fill='#FFFFFF'>DELEGADO DE POL&#205;CIA CIVIL</text>
+<text x='400' y='1020' text-anchor='middle' font-family='Source Sans 3,Arial,sans-serif' font-size='17' font-weight='600' letter-spacing='3' fill='#E3C979'>56 FICHAS ILUSTRADAS  &#183;  PEGADINHAS DE PROVA</text>
+<text x='400' y='1048' text-anchor='middle' font-family='Source Sans 3,Arial,sans-serif' font-size='17' font-weight='600' letter-spacing='3' fill='#E3C979'>EXERC&#205;CIOS E GABARITO</text>
+<text x='400' y='1082' text-anchor='middle' font-family='Source Sans 3,Arial,sans-serif' font-size='13' letter-spacing='3' fill='#8EA0B8'>EDI&#199;&#195;O LOTE 1  &#183;  V1.0</text>
+</svg>
